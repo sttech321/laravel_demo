@@ -64,3 +64,49 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+
+1. Clone the Laravel Project:
+
+     -Set the directory where you want to clone the project.
+     -Open the terminal and navigate to the desired location.
+     -Clone the Laravel project repository using Git:
+
+       git clone <repository_url>
+
+
+2. Install Composer Dependencies:
+
+   -Navigate to the cloned project directory in the terminal.
+   -Install Composer dependencies:
+   
+        composer install
+   
+4. Initialize the Development Server:
+
+    -After installing Composer dependencies, initialize the development server using Artisan:
+
+        php artisan serve
+
+5. Set Up the Database:
+
+    -Open your preferred SQL client and create a new database.
+    -Update the .env file in the project directory.
+        .Change the DB_DATABASE parameter to match the name of the newly created database.
+        .Update other database parameters if necessary (DB_USERNAME, DB_PASSWORD, etc.).
+
+6. Migrate and Seed the Database:
+
+   -Run database migrations and seed the database with initial data:
+
+
+       php artisan migrate:fresh --seed
+
+
+7. Install Vite Using npm:
+
+     -Ensure you have Node.js and npm installed on your system.
+     -Install Vite as a development dependency using npm:
+
+       npm install vite --save-dev
