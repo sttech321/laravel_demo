@@ -67,6 +67,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 
 
+## Efficient Setup of a Laravel Project 
 1. Clone the Laravel Project:
 
      -Set the directory where you want to clone the project.
